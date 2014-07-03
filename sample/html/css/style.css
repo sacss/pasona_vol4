@@ -32,6 +32,10 @@ body {
 
 /* header
 ------------------------------ */
+#header {
+  margin-bottom: 15px;
+}
+
 #header h1 {
   float: left;
   margin: 0;
