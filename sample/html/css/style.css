@@ -11,6 +11,12 @@ body {
   margin: 0 auto;
 }
 
+.inner:after {
+  comtent: "";
+  display: block;
+  clear: both;
+}
+
 /* wrap
 ------------------------------ */
 
