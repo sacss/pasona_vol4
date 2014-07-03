@@ -32,10 +32,6 @@ body {
 
 /* header
 ------------------------------ */
-
-#header {
-
-}
 #header h1 {
   float: left;
   margin: 0;
@@ -46,20 +42,122 @@ body {
   margin: 0;
   padding: 0;
 }
-#header .utilityNav li {}
-#header .utilityNav li a{}
 
-#iconTwitter {}
-#iconFeed {}
+#iconTwitter,
+#iconFeed {
+  display: inline-block;
+  text-indent: -9999em;
+}
+
+#iconTwitter a,
+#iconFeed a  {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(../img/icons.png) no-repeat;
+  background-position: 0 0;
+}
+
+#iconTwitter a {
+  background-position: 0 0;
+}
+
+#iconTwitter a:hover {
+  background-position: 0 -56px;
+}
+
+#iconFeed a {
+  background-position: -56px 0;
+}
+
+#iconFeed a:hover {
+  background-position: -56px -56px;
+}
 
 /* content
 ------------------------------ */
 
+#content {
+  margin-bottom: 50px;
+}
+
+#content:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 /* main
 ------------------------------ */
+#visual {
+  margin-bottom: 50px;
+}
+
+#main {
+  float: left;
+  width: 700px;
+  font-size: 13px;
+}
+
+#main .mainHeading h2 {
+  padding: 0 0 5px 10px;
+  margin-top: 0;
+  border-bottom: solid 3px #000000;
+}
+
+#main .mainContent ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#main .mainContent ul li {
+  margin-bottom: 10px;
+}
+
+#main .mainContent ul li a {
+  background: url(../img/arrow01.gif) no-repeat 10px center;
+  padding: 0 0 0 32px;
+  text-decoration: none;
+  color: #191919;
+}
+
+#main .mainContent ul li a:visited {
+  text-decoration: none;
+  color: #191919;
+}
+
+#main .mainContent ul li a:hover,
+#main .mainContent ul li a:active {
+  text-decoration: underline;
+  color: #0099FF;
+}
 
 /* side
 ------------------------------ */
 
+#side {
+  width: 170px;
+  float: right;
+}
+
+#side .bnrList{
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
 /* footer
 ------------------------------ */
+
+#footer {
+  background-color: #000000;
+}
+
+#footer p {
+  text-align: right;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 3px 0;
+  line-height: 1.5;
+}

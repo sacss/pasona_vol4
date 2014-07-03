@@ -34,3 +34,5 @@ jQuery.fn.rollover = function(suffix) {
 		);
 	});
 };
+
+$('.over').rollover();
