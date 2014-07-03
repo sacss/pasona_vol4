@@ -2,9 +2,55 @@
 
 /* common
 ------------------------------ */
+body {
+  font-family: Arial;
+}
+
+.inner {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* wrap
+------------------------------ */
+
+/* headerbar
+------------------------------ */
+#headerbar {
+  background-color: #000000;
+  margin-bottom: 35px;
+}
+
+#headerbar p {
+  text-align: right;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 3px 0;
+  line-height: 1.5;
+}
+
 
 /* header
 ------------------------------ */
+
+#header {
+
+}
+#header h1 {
+  float: left;
+  margin: 0;
+}
+#header .utilityNav {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#header .utilityNav li {}
+#header .utilityNav li a{}
+
+#iconTwitter {}
+#iconFeed {}
 
 /* content
 ------------------------------ */
